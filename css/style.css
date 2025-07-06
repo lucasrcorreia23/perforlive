@@ -102,11 +102,10 @@ body {
 
 h1, .h1 {
   font-family: "Poppins", Helvetica, Arial, sans-serif;
-  font-size: 40px;
-
-  line-height: 1.5;
-  margin-top: 0;
-  margin-bottom: 10px;
+    font-size: 44px;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 16px;
 }
 
 h2, .h2 {
@@ -121,10 +120,11 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 100;
   line-height: 1.5;
+  
   
   
   margin-top: 0;
@@ -143,10 +143,10 @@ h4, .h4 {
 }
 
 p, .lead {
-  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.8;
   margin-bottom: 0;
 }
 
@@ -369,8 +369,8 @@ a.btn.btn-dark:focus {
 
 .btn-color,
 a.btn-color {
-  color: #0f2837;
-  background-color: #77ccb1;
+  color: #fff;
+  background-color: #505050;
 }
 
 .btn.btn-color:hover,
@@ -379,8 +379,9 @@ a.btn-color {
 a.btn.btn-color:hover,
 a.btn.btn-color:active,
 a.btn.btn-color:focus {
-  color: #0f2837;
-  background-color: #ddede8;
+  color: #fff;
+  background-color: #333;
+  transform: 1s;
 }
 
 /* ----------------------------------
@@ -627,11 +628,17 @@ label.message-text {
   height: 100%;
   align-items: center;
   display: flex;
+  align-items: baseline;
+}
+#contact{
+  padding: 20px 0 80px 0;
 }
 
 .vert-middle > div {
   width: 100%;
   vertical-align: middle;
+  margin: auto;
+    max-width: 600px;
 }
 
 .p-t-b-5 {
@@ -829,7 +836,7 @@ header {
   min-height: 700px;
   width: 100%;
   z-index: -100;
-  background-image: url(/images/2.png);
+  background-image: url(/images/hero-as.png);
   background-color: #cccccc;
   background-repeat: no-repeat;
   background-size:cover;
@@ -850,6 +857,9 @@ header {
 }
 .mt-5{
   margin-top:24px;
+}
+.mb-5{
+  margin-bottom:24px;
 }
 
 .section-overlay img {
@@ -1137,13 +1147,16 @@ body.vegas-container > .vegas-slide {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #000;
+  background-color: #121212;
   opacity: 0.25;
   transition: opacity 0.3s ease-in-out;
 }
 
 .img-hover-effect:hover .img-overlay {
-  opacity: 0;
+  opacity: 0.7;
+}
+.pswp__caption__center{
+max-width: 800px!important;
 }
 
 .img-hover-effect .img-title {
@@ -1182,10 +1195,12 @@ body.vegas-container > .vegas-slide {
    _____________________________________ */
 
 .page-info {
-  min-height: 700px;
-  height: 100%;
+  min-height: 600px;
+  
+  height: 100vh;
   padding-top: 20px;
   padding-bottom: 20px;
+  margin: auto;
 }
 
 .sr .reveal {
