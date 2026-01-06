@@ -1,3 +1,5 @@
+/*# sourceURL=css/style.css */
+/*@ sourceURL=css/style.css */
 /*
 Template Name: cm'soon
 Theme URL: http://www.egotype.com/cm-soon/
@@ -45,27 +47,27 @@ body {
 
 @font-face {
   font-family: "Poppins";
-  src: url("../fonts/Poppins/Poppins-ExtraLight.woff") format("woff"),
-  url("../fonts/Poppins/Poppins-ExtraLight.woff2") format("woff2"),
-  url("../fonts/Poppins/Poppins-ExtraLight.ttf") format("truetype");
+  src: url("https://perforlive.com.br/css/../fonts/Poppins/Poppins-ExtraLight.woff") format("woff"),
+  url("https://perforlive.com.br/css/../fonts/Poppins/Poppins-ExtraLight.woff2") format("woff2"),
+  url("https://perforlive.com.br/css/../fonts/Poppins/Poppins-ExtraLight.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Poppins";
-  src: url("../fonts/Poppins/Poppins-Medium.woff") format("woff"),
-  url("../fonts/Poppins/Poppins-Medium.woff2") format("woff2"),
-  url("../fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+  src: url("https://perforlive.com.br/css/../fonts/Poppins/Poppins-Medium.woff") format("woff"),
+  url("https://perforlive.com.br/css/../fonts/Poppins/Poppins-Medium.woff2") format("woff2"),
+  url("https://perforlive.com.br/css/../fonts/Poppins/Poppins-Medium.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Poppins";
-  src: url("../fonts/Poppins/Poppins-Bold.woff") format("woff"),
-  url("../fonts/Poppins/Poppins-Bold.woff2") format("woff2"),
-  url("../fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+  src: url("https://perforlive.com.br/css/../fonts/Poppins/Poppins-Bold.woff") format("woff"),
+  url("https://perforlive.com.br/css/../fonts/Poppins/Poppins-Bold.woff2") format("woff2"),
+  url("https://perforlive.com.br/css/../fonts/Poppins/Poppins-Bold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
@@ -829,7 +831,7 @@ header {
   min-height: 700px;
   width: 100%;
   z-index: -100;
-  background-image: url(/images/2.png);
+  background-image: url("https://perforlive.com.br/images/2.png");
   background-color: #cccccc;
   background-repeat: no-repeat;
   background-size:cover;
@@ -877,7 +879,7 @@ header {
 }
 
 .page-image {
-  background: url("../images/placeholder-2400-1600.jpg") no-repeat center center;
+  background: url("https://perforlive.com.br/css/../images/placeholder-2400-1600.jpg") no-repeat center center;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -885,7 +887,7 @@ header {
 }
 
 .page-image-min {
-  background: url("../images/placeholder-2400-1600.jpg") no-repeat center center;
+  background: url("https://perforlive.com.br/css/../images/placeholder-2400-1600.jpg") no-repeat center center;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -893,7 +895,7 @@ header {
 }
 
 .page-image-ripple {
-  background: url("../images/placeholder-2400-1600.jpg") no-repeat center center;
+  background: url("https://perforlive.com.br/css/../images/placeholder-2400-1600.jpg") no-repeat center center;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -901,7 +903,7 @@ header {
 }
 
 .page-image-full {
-  background: url("../images/placeholder-2400-1600.jpg") no-repeat center center;
+  background: url("https://perforlive.com.br/css/../images/placeholder-2400-1600.jpg") no-repeat center center;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -909,7 +911,7 @@ header {
 }
 
 .page-image-bw {
-    background: url("../images/placeholder-2400-1600.jpg") no-repeat center center;
+    background: url("https://perforlive.com.br/css/../images/placeholder-2400-1600.jpg") no-repeat center center;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -923,17 +925,17 @@ header {
 }
 
 .page-slide-1 {
-  background: url("../images/placeholder-2400-1600.jpg") no-repeat center center;
+  background: url("https://perforlive.com.br/css/../images/placeholder-2400-1600.jpg") no-repeat center center;
   background-size: cover;
 }
 
 .page-slide-2 {
-  background: url("../images/placeholder-2400-1600.jpg") no-repeat center center;
+  background: url("https://perforlive.com.br/css/../images/placeholder-2400-1600.jpg") no-repeat center center;
   background-size: cover;
 }
 
 .page-slide-3 {
-  background: url("../images/placeholder-2400-1600.jpg") no-repeat center center;
+  background: url("https://perforlive.com.br/css/../images/placeholder-2400-1600.jpg") no-repeat center center;
   background-size: cover;
 }
 
